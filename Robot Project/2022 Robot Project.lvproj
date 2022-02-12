@@ -112,6 +112,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Vision" Type="Folder" URL="../Vision">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Configuration" Type="Folder" URL="../Configuration">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -573,7 +576,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/RobotNeededPathData.ctl"/>
 			<Item Name="PIDOrPurePursuitSelect.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Drive/PIDOrPurePursuitSelect.vi"/>
-			<Item Name="Constants.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Configuration/Constants.vi"/>
 			<Item Name="DriveForDistanceController.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/DriveForDistanceController.vi"/>
 			<Item Name="InjectPoints.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/InjectPoints.vi"/>
 			<Item Name="DistanceFormula.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/DistanceFormula.vi"/>
@@ -595,6 +597,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SimpleVisionAlign.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Vision/SimpleVisionAlign.vi"/>
 			<Item Name="SmallestAngle.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/SmallestAngle.vi"/>
 			<Item Name="OneShotPulse.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/OneShotPulse.vi"/>
+			<Item Name="PathFileData.ctl" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/PathFileData.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">

@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?><Sequential ID="4"><DrivePath ID="1" Index="0.00" NoWait="FALSE" PathFileName="LIMELIGHT"/><DrivePath ID="2" Index="1.00" NoWait="FALSE" PathFileName="LIMELIGHT"/><AutoAlign ID="3" NoWait="FALSE"/></Sequential>

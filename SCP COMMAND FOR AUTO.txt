@@ -1,0 +1,20 @@
+So to get an auto routine onto the robot, first make sure you can ssh the robot by going into git bash and typing: ssh lvuser@10.17.12.2
+if that gives you in error about someone trying to hack you or something like that then go type: cd C:/Users/competition/.ssh
+then type rm -rf known_hosts
+then you should be fine
+After that copy and paste the cd command below into git bash
+then copy and paste the scp command into git bash
+That should do the trick
+remember to use the Auto routines command for auto routines and the path files command for path files
+Also remember to replace FILENAME.txt with the name of the path or auto file you want
+
+FOR AUTO ROUTINES
+
+cd 'C:/Users/competition/Documents/LabVIEW Data/Projects/FRC-2022/Auto Editor/AutoFileEditor/AutoFiles'
+scp FILENAME.txt lvuser@10.17.12.2:/home/lvuser/Auto/AutoFiles
+
+
+FOR PATH FILES
+
+cd 'C:/Users/competition/Documents/LabVIEW Data/Projects/FRC-2022/Auto Editor/PathDrawer/Paths'
+scp FILENAME.txt lvuser@10.17.12.2:/home/lvuser/Auto/PurePursuit
