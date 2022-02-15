@@ -121,6 +121,9 @@ AddOutputFilter chunkFilter
 		<Item Name="Intake" Type="Folder" URL="../Intake">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Feed" Type="Folder" URL="../Feed">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
@@ -698,6 +701,8 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
+				<Item Name="Spark MAX Control Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/Typedef/Spark MAX Control Type.ctl"/>
+				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -738,6 +743,11 @@ AddOutputFilter chunkFilter
 			<Item Name="SmallestAngle.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/SmallestAngle.vi"/>
 			<Item Name="OneShotPulse.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/OneShotPulse.vi"/>
 			<Item Name="PathFileData.ctl" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/PathFileData.ctl"/>
+			<Item Name="derivative.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/derivative.vi"/>
+			<Item Name="Constants.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Configuration/Constants.vi"/>
+			<Item Name="Drive Published Globals.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Drive/Implementation/Drive Published Globals.vi"/>
+			<Item Name="Drive Setpoints.ctl" Type="VI" URL="../../../FRC-2020/Robot Project/Drive/Implementation/Drive Setpoints.ctl"/>
+			<Item Name="Drive Operations.ctl" Type="VI" URL="../../../FRC-2020/Robot Project/Drive/Implementation/Drive Operations.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
