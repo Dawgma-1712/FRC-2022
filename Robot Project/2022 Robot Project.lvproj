@@ -129,8 +129,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
-		<Item Name="derivative.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/derivative.vi"/>
-		<Item Name="Drift_Compensator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Advanced/Drift_Compensator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Command Status Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Command Status Info.ctl"/>
@@ -427,9 +425,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Spark MAX Set D Constant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/Spark MAX Set D Constant.vi"/>
 				<Item Name="Spark MAX Set F Constant.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/Spark MAX Set F Constant.vi"/>
 				<Item Name="Spark MAX Set Output Advanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/SubVI/Public/Spark MAX Set Output Advanced.vi"/>
-				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
-				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="Spark MAX Control Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/Typedef/Spark MAX Control Type.ctl"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="Spark MAX Status 2 Frame.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/Typedef/Spark MAX Status 2 Frame.ctl"/>
@@ -701,8 +696,10 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
-				<Item Name="Spark MAX Control Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/Typedef/Spark MAX Control Type.ctl"/>
-				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
+				<Item Name="Drift_Compensator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Advanced/Drift_Compensator.vi"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -719,35 +716,30 @@ AddOutputFilter chunkFilter
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/RobotNeededPathData.ctl"/>
-			<Item Name="PIDOrPurePursuitSelect.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Drive/PIDOrPurePursuitSelect.vi"/>
-			<Item Name="DriveForDistanceController.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/DriveForDistanceController.vi"/>
-			<Item Name="InjectPoints.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/InjectPoints.vi"/>
-			<Item Name="DistanceFormula.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/DistanceFormula.vi"/>
-			<Item Name="PurePursuit.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/PurePursuit.vi"/>
-			<Item Name="RadiusOfCircleThreePoints.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/RadiusOfCircleThreePoints.vi"/>
-			<Item Name="CalcDistanceFromEnd.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/CalcDistanceFromEnd.vi"/>
-			<Item Name="CalculateVelAtPoints.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/CalculateVelAtPoints.vi"/>
-			<Item Name="ClosestPoint.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/ClosestPoint.vi"/>
-			<Item Name="RateLimiter.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/RateLimiter.vi"/>
-			<Item Name="EndOfPathHandler.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/EndOfPathHandler.vi"/>
-			<Item Name="Latch.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/Latch.vi"/>
-			<Item Name="TimerOnDelay.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/TimerOnDelay.vi"/>
-			<Item Name="Timeout.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/Timeout.vi"/>
-			<Item Name="LookAheadPoint.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/LookAheadPoint.vi"/>
-			<Item Name="CalculateCurvature.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/CalculateCurvature.vi"/>
-			<Item Name="VisualizePurePursuit.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/VisualizePurePursuit.vi"/>
-			<Item Name="DrawCircle.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/DrawCircle.vi"/>
-			<Item Name="CalculatePowerPursuit.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/CalculatePowerPursuit.vi"/>
-			<Item Name="SimpleVisionAlign.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Vision/SimpleVisionAlign.vi"/>
-			<Item Name="SmallestAngle.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/SmallestAngle.vi"/>
 			<Item Name="OneShotPulse.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/OneShotPulse.vi"/>
-			<Item Name="PathFileData.ctl" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/PathFileData.ctl"/>
-			<Item Name="derivative.vi" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Utilities/derivative.vi"/>
-			<Item Name="Constants.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Configuration/Constants.vi"/>
-			<Item Name="Drive Published Globals.vi" Type="VI" URL="../../../FRC-2020/Robot Project/Drive/Implementation/Drive Published Globals.vi"/>
-			<Item Name="Drive Setpoints.ctl" Type="VI" URL="../../../FRC-2020/Robot Project/Drive/Implementation/Drive Setpoints.ctl"/>
-			<Item Name="Drive Operations.ctl" Type="VI" URL="../../../FRC-2020/Robot Project/Drive/Implementation/Drive Operations.ctl"/>
+			<Item Name="DriveForDistanceController.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/DriveForDistanceController.vi"/>
+			<Item Name="SmallestAngle.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/SmallestAngle.vi"/>
+			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../../FRC-2020/Dawgma Programming Library/Controls/PurePursuit/RobotNeededPathData.ctl"/>
+			<Item Name="PathFileData.ctl" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/PathFileData.ctl"/>
+			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/RobotNeededPathData.ctl"/>
+			<Item Name="InjectPoints.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/InjectPoints.vi"/>
+			<Item Name="DistanceFormula.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/DistanceFormula.vi"/>
+			<Item Name="PurePursuit.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/PurePursuit.vi"/>
+			<Item Name="RadiusOfCircleThreePoints.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/RadiusOfCircleThreePoints.vi"/>
+			<Item Name="CalcDistanceFromEnd.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/CalcDistanceFromEnd.vi"/>
+			<Item Name="CalculateVelAtPoints.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/CalculateVelAtPoints.vi"/>
+			<Item Name="ClosestPoint.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/ClosestPoint.vi"/>
+			<Item Name="RateLimiter.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/RateLimiter.vi"/>
+			<Item Name="EndOfPathHandler.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/EndOfPathHandler.vi"/>
+			<Item Name="Latch.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/Latch.vi"/>
+			<Item Name="TimerOnDelay.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/TimerOnDelay.vi"/>
+			<Item Name="Timeout.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/Timeout.vi"/>
+			<Item Name="LookAheadPoint.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/LookAheadPoint.vi"/>
+			<Item Name="CalculateCurvature.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/CalculateCurvature.vi"/>
+			<Item Name="VisualizePurePursuit.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/VisualizePurePursuit.vi"/>
+			<Item Name="DrawCircle.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/DrawCircle.vi"/>
+			<Item Name="CalculatePowerPursuit.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/CalculatePowerPursuit.vi"/>
+			<Item Name="derivative.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/derivative.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
