@@ -91,6 +91,7 @@
 			<Item Name="Smoother.vi" Type="VI" URL="../PathDrawer/Smoother.vi"/>
 			<Item Name="StartingLocations.vi" Type="VI" URL="../PathDrawer/StartingLocations.vi"/>
 			<Item Name="StartingPositions.ctl" Type="VI" URL="../PathDrawer/StartingPositions.ctl"/>
+			<Item Name="StartingReferencePoint.ctl" Type="VI" URL="../PathDrawer/StartingReferencePoint.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
