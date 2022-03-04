@@ -88,6 +88,7 @@
 			<Item Name="PromptForAttributes.vi" Type="VI" URL="../AutoFileEditor/PromptForAttributes.vi"/>
 			<Item Name="ReplaceSelfClosingStructureElements.vi" Type="VI" URL="../AutoFileEditor/Utils/ReplaceSelfClosingStructureElements.vi"/>
 			<Item Name="RobotNeededPathData.ctl" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/RobotNeededPathData.ctl"/>
+			<Item Name="RotateVector.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/RotateVector.vi"/>
 			<Item Name="Smoother.vi" Type="VI" URL="../PathDrawer/Smoother.vi"/>
 			<Item Name="StartingLocations.vi" Type="VI" URL="../PathDrawer/StartingLocations.vi"/>
 			<Item Name="StartingPositions.ctl" Type="VI" URL="../PathDrawer/StartingPositions.ctl"/>
