@@ -1,3 +1,5 @@
+****NOTE THIS IS NO LONGER NECESSARY SINCE THE EXPORT TO ROBOT BUTTON HAS BEEN FIXED****
+
 So to get an auto routine onto the robot, first make sure you can ssh the robot by going into git bash and typing: ssh lvuser@10.17.12.2
 if that gives you in error about someone trying to hack you or something like that then go type: cd C:/Users/competition/.ssh
 then type rm -rf known_hosts

@@ -158,7 +158,6 @@ AddOutputFilter chunkFilter
 		<Item Name="Autonomous.vi" Type="VI" URL="../Autonomous.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="SubSystems.vi" Type="VI" URL="../SubSystems.vi"/>
-		<Item Name="Get_Continuous_Angle.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Get_Continuous_Angle.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Command Status Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Framework/Command Status Info.ctl"/>
@@ -728,10 +727,6 @@ AddOutputFilter chunkFilter
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
 				<Item Name="Spark MAX Control Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/REVLib/Typedef/Spark MAX Control Type.ctl"/>
-				<Item Name="Zero Yaw.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Set/Zero Yaw.vi"/>
-				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Kauai Labs/labviewae/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
-				<Item Name="Get_Error_Status.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Get_Error_Status.vi"/>
-				<Item Name="Get_YPRHfH.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/Kauai Labs/labviewae/Get/Get_YPRHfH.vi"/>
 				<Item Name="Spark MAX Control Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/REV Robotics/SPARK MAX/Typedef/Spark MAX Control Type.ctl"/>
 				<Item Name="CTRE_Phoenix_VictorSPX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Victor SPX/CTRE_Phoenix_VictorSPX_Open.vi"/>
 				<Item Name="CTRE_Phoenix_TalonSRX_Open.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Talon SRX/CTRE_Phoenix_TalonSRX_Open.vi"/>
@@ -776,19 +771,8 @@ AddOutputFilter chunkFilter
 			<Item Name="PurePursuit.vi" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/PurePursuit.vi"/>
 			<Item Name="LinearInterpolate.vi" Type="VI" URL="../../Dawgma Programming Library/Utilities/LinearInterpolate.vi"/>
 			<Item Name="CheesyDrive.vi" Type="VI" URL="../../Dawgma Programming Library/WPI Helper Stuff/CheesyDrive.vi"/>
-			<Item Name="AutoAlign-C.vi" Type="VI" URL="../Auto/Commands/AutoAlign-C.vi"/>
-			<Item Name="AutoScore-C.vi" Type="VI" URL="../Auto/Commands/AutoScore-C.vi"/>
-			<Item Name="CheckPiecesToScore-C.vi" Type="VI" URL="../Auto/Commands/CheckPiecesToScore-C.vi"/>
-			<Item Name="DoTeleop-C.vi" Type="VI" URL="../Auto/Commands/DoTeleop-C.vi"/>
-			<Item Name="DriveForDistance-C.vi" Type="VI" URL="../Auto/Commands/DriveForDistance-C.vi"/>
-			<Item Name="DriveForTime-C.vi" Type="VI" URL="../Auto/Commands/DriveForTime-C.vi"/>
-			<Item Name="DrivePath-C.vi" Type="VI" URL="../Auto/Commands/DrivePath-C.vi"/>
-			<Item Name="FeedForTime-C.vi" Type="VI" URL="../Auto/Commands/FeedForTime-C.vi"/>
-			<Item Name="IntakeForTime-C.vi" Type="VI" URL="../Auto/Commands/IntakeForTime-C.vi"/>
-			<Item Name="ShootForTime-C.vi" Type="VI" URL="../Auto/Commands/ShootForTime-C.vi"/>
-			<Item Name="SingulateForTime-C.vi" Type="VI" URL="../Auto/Commands/SingulateForTime-C.vi"/>
-			<Item Name="TurnForAngle-C.vi" Type="VI" URL="../Auto/Commands/TurnForAngle-C.vi"/>
-			<Item Name="Wait-C.vi" Type="VI" URL="../Auto/Commands/Wait-C.vi"/>
+			<Item Name="ArrangeValuesByName.vi" Type="VI" URL="../CreateCommands/Utils/ArrangeValuesByName.vi"/>
+			<Item Name="StringToNumber.vi" Type="VI" URL="../CreateCommands/Utils/StringToNumber.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
