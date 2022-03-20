@@ -57,14 +57,19 @@
 			<Item Name="Drive for Distance.vi" Type="VI" URL="../Drive/Commands/Drive for Distance.vi"/>
 			<Item Name="Drive Path.vi" Type="VI" URL="../Drive/Commands/Drive Path.vi"/>
 			<Item Name="PathFileData.ctl" Type="VI" URL="../../Dawgma Programming Library/Controls/PurePursuit/PathFileData.ctl"/>
+			<Item Name="Feed Operations.ctl" Type="VI" URL="../Feed/Implementation/Feed Operations.ctl"/>
+			<Item Name="Feed Setpoints.ctl" Type="VI" URL="../Feed/Implementation/Feed Setpoints.ctl"/>
+			<Item Name="Feed Published Globals.vi" Type="VI" URL="../Feed/Implementation/Feed Published Globals.vi"/>
+			<Item Name="Feed Command Helper.vi" Type="VI" URL="../Feed/Implementation/Infrastructure/Feed Command Helper.vi"/>
+			<Item Name="Feed For Time.vi" Type="VI" URL="../Feed/Commands/Feed For Time.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">10.17.12.2</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,7AAE;</Property>
-		<Property Name="crio.ControllerPID" Type="Str">7AAE</Property>
+		<Property Name="alias.value" Type="Str">169.254.28.22</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,76F2;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
 		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
@@ -810,7 +815,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D2136F65-FD06-4AC9-A317-10E44B9EF7A4}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
