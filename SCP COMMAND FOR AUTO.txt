@@ -14,7 +14,7 @@ FOR AUTO ROUTINES
 
 cd 'C:/Users/competition/Documents/LabVIEW Data/Projects/FRC-2022/Auto Editor/AutoFileEditor/AutoFiles'
 scp FILENAME.txt lvuser@10.17.12.2:/home/lvuser/Auto/AutoFiles
-
+scp 1CARGOBASIC.txt lvuser@169.254.104.211:/home/lvuser/Auto/AutoFiles
 
 FOR PATH FILES
 
