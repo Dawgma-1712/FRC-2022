@@ -1,5 +1,5 @@
 [My Computer]
-My Computer = "127.0.0.1"
+My Computer = "10.17.12.213"
 
 [Target]
-Target = "169.254.104.211"
+Target = "10.17.12.2"
